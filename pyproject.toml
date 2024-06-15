@@ -5,7 +5,11 @@ description = "Add your description here"
 authors = [
     { name = "hiroaki222", email = "hiroaki.takahara.222@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "matplotlib>=3.9.0",
+    "torch>=2.3.1",
+    "numpy>=1.26.4",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
