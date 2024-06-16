@@ -9,6 +9,7 @@ dependencies = [
     "matplotlib>=3.9.0",
     "torch>=2.3.1",
     "numpy>=1.26.4",
+    "ipykernel>=6.29.4",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
