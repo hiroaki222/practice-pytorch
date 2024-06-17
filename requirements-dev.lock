@@ -63,6 +63,7 @@ numpy==1.26.4
     # via contourpy
     # via matplotlib
     # via practice-pytorch
+    # via torchvision
 packaging==24.1
     # via ipykernel
     # via matplotlib
@@ -72,6 +73,7 @@ pexpect==4.9.0
     # via ipython
 pillow==10.3.0
     # via matplotlib
+    # via torchvision
 platformdirs==4.2.2
     # via jupyter-core
 prompt-toolkit==3.0.47
@@ -100,6 +102,9 @@ stack-data==0.6.3
 sympy==1.12.1
     # via torch
 torch==2.3.1
+    # via practice-pytorch
+    # via torchvision
+torchvision==0.18.1
     # via practice-pytorch
 tornado==6.4.1
     # via ipykernel

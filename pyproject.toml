@@ -10,6 +10,7 @@ dependencies = [
     "torch>=2.3.1",
     "numpy>=1.26.4",
     "ipykernel>=6.29.4",
+    "torchvision>=0.18.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
